@@ -50,6 +50,9 @@ group :production do
   gem 'pg'
 end
 
+gem "therubyracer"
+gem "less-rails"
+
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 gem 'font-awesome-rails'
